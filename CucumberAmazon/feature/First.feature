@@ -26,6 +26,17 @@ Feature: sorting and buying product in amazon
     When  user navigate to login page
     Then  user login as "9447249725"and "Naveen@143"  
     
+    @tag2
+    Scenario: search for delllaptop and apply rating filter and find product details,count,discounted price
+    Given: user selects electronics and search dell laptop
+    When: user apply filter to search result
+    Then: user find product details
+    And: user find product count
+    And: user find discounted rate
+    
+    
+    
+   
           
    
 
